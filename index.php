@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +10,29 @@
 </head>
 <body>
 	<div id="container">
+		<h1>Portal Administrativo - Adilson Calixto</h1>
+
+		<?php 
+
+			require_once("vendor/autoload.php");
+
+			$app = new \Slim\Slim();
+
+			$app->config('debug', true);
+
+			$app->get('/', function() {
+    
+			echo "OK";
+
+			});
+
+			$app->run();
+
+ 		?>
 		
 	</div><!--FIM DA DIV ID CONTAINER-->
 	
 </body>
 </html>
+
+

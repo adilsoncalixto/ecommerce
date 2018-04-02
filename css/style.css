@@ -9,3 +9,8 @@
 	background: #CCC;
 	margin:0 auto;
 }
+
+#container h1{
+	text-align: center;
+	text-shadow: 1px 1px #FFF;
+}
